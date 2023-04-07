@@ -11,4 +11,4 @@ jobs:
        - node/with-cache:
           steps:
             - run: pm install
-        - run: mpm run test
+       - run: mpm run test
