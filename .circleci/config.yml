@@ -4,8 +4,8 @@ jobs:
   docker:
    - image: cimg/ruby:2.6.8
      auth:
-      username: mydockerhub-user
-      password: SDOCKERHUB_ PASSWORD
+       username: mydockerhub-user
+       password: SDOCKERHUB_ PASSWORD
    steps:
     - checkout
     - run: echo "A first Hello"
@@ -14,9 +14,9 @@ jobs:
    docker:
     - image: cimg/ruby:3.0.2
      auth:
-      username: mydockerhub-user
-      password: SDOCKERHUB_ PASSWORD
-    steps:
+       username: mydockerhub-user
+       password: SDOCKERHUB_ PASSWORD
+   steps:
      - checkout
      - run: echo "A more familiar hi" 
      - run: sleep 15 
