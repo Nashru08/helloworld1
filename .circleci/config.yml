@@ -22,7 +22,6 @@ jobs:
      - run: echo "A more familiar hi" 
      - run: sleep 15 
 workflows:
-version: 2.2.1
 one and two: 
  jobs:
   - one
