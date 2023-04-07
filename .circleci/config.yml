@@ -22,10 +22,10 @@ jobs:
      - run: echo "A more familiar hi" 
      - run: sleep 15 
 workflows:
-one and two: 
- jobs:
-  - one
-  - two
+  one_and_two: 
+    jobs:
+      - one
+      - two
    
     
    
