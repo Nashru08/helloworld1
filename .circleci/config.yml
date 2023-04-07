@@ -6,7 +6,8 @@ jobs:
      auth:
        username: mydockerhub-user
        password: SDOCKERHUB_ PASSWORD
-   steps:
+       
+  steps:
     - checkout
     - run: echo "A first Hello"
     - run: sleep 25
