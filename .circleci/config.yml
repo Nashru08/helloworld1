@@ -9,6 +9,6 @@ jobs:
     steps:
        - checkout 
        - node/with-cache:
-         steps:
-          - run: pm install
+          steps:
+            - run: pm install
         - run: mpm run test
