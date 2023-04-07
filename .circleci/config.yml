@@ -14,9 +14,9 @@ jobs:
   two:
    docker:
     - image: cimg/ruby:3.0.2
-     auth:
-       username: mydockerhub-user
-       password: SDOCKERHUB_ PASSWORD
+      auth:
+         username: mydockerhub-user
+         password: SDOCKERHUB_ PASSWORD
    steps:
      - checkout
      - run: echo "A more familiar hi" 
